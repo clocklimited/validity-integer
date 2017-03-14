@@ -59,4 +59,12 @@ describe('validity-integer', function () {
       done()
     })
   })
+
+  it('should return validation error if a property is NaN', function (done) {
+    validateInteger('width', 'Width', { width: NaN }, (error, validationError) => {
+      assert.equal(error, null)
+      assert.equal(validationError, 'Width must be an integer')
+      done()
+    })
+  })
 })
