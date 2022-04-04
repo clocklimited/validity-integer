@@ -1,13 +1,13 @@
 {
-  "name": "validity-integer",
-  "version": "1.2.0",
+  "name": "@clocklimited/validity-integer",
+  "version": "1.2.1",
   "description": "Validity style validator to ensure a property is an integer",
   "main": "validator.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "validity": "^1.1.0"
+    "@clocklimited/validity": "^1.1.3"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dompainter/validity-integer.git"
+    "url": "git+https://github.com/clocklimited/validity-integer.git"
   },
   "author": "Dominick Painter",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dompainter/validity-integer/issues"
+    "url": "https://github.com/clocklimited/validity-integer/issues"
   },
-  "homepage": "https://github.com/dompainter/validity-integer#readme"
+  "homepage": "https://github.com/clocklimited/validity-integer#readme"
 }

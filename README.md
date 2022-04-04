@@ -5,7 +5,7 @@ Validity style validator to ensure a property is an integer
 ## Installation
 
 ```
-npm install validity-integer --save
+npm install @clocklimited/validity-integer --save
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install validity-integer --save
 Below is a simple example for usage with schemata and save:
 
 ``` js
-var isInteger = require('validity-integer')
+var isInteger = require('@clocklimited/validity-integer')
   , schemata = require('schemata')
 
 var schema = schemata(
